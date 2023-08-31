@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net5.0;net6.0;net7.0</TargetFrameworks>
+    <RootNamespace>Dingtalk.Stream</RootNamespace>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>Dingtalk.Stream</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>Sean Liu</Authors>
+    <Owners>Sean Liu</Owners>
+    <icon>dingtalk.png</icon>
+    <ProjectUrl>http://github.com/contoso/UsefulStuff</ProjectUrl>
+    <tags>dingtalk stream push web utility websocket</tags>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackRelease>true</PackRelease>
+  </PropertyGroup>
+
+</Project>

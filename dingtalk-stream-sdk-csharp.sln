@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33927.249
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dingtalk-stream-sdk-csharp", "dingtalk-stream-sdk-csharp.csproj", "{80EB4250-FFA7-47A5-A301-C7F3183F2053}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dingtalk.Stream", "Dingtalk.Stream.csproj", "{80EB4250-FFA7-47A5-A301-C7F3183F2053}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
