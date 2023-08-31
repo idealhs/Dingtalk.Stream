@@ -16,7 +16,7 @@
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/idealhs/Dingtalk.Stream</RepositoryUrl>
     <Description>
-      A unofficial .NET implantation of Dingtalk stream mode.
+      A unofficial .NET implementation of Dingtalk stream mode.
     </Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
 </PropertyGroup>

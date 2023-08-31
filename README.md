@@ -1,6 +1,6 @@
 # **Dingtalk Stream Mode .NET Unofficial SDK**
 
-Unofficial .NET implantation of Dingtalk stream mode.
+Unofficial .NET implementation of Dingtalk stream mode.
 
 It handles the authcation, keep-alive and response of push event.
 
