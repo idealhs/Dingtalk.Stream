@@ -8,13 +8,23 @@
   </PropertyGroup>
   <PropertyGroup>
     <PackageId>Dingtalk.Stream</PackageId>
-    <Version>1.0.1</Version>
+    <PackageVersion>1.0.2</PackageVersion>
     <Authors>Sean Liu</Authors>
     <Owners>Sean Liu</Owners>
-    <icon>dingtalk.png</icon>
-    <ProjectUrl>http://github.com/contoso/UsefulStuff</ProjectUrl>
-    <tags>dingtalk stream push web utility websocket</tags>
-  </PropertyGroup>
+    <PackageIcon>dingtalk.png</PackageIcon>
+    <PackageTags>dingtalk stream push web utility websocket</PackageTags>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/idealhs/Dingtalk.Stream</RepositoryUrl>
+    <Description>
+      A unofficial .NET implantation of Dingtalk stream mode.
+    </Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+</PropertyGroup>
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+    <None Include="LICENSE.txt" Pack="true" PackagePath="\"/>
+    <None Include="dingtalk.png" Pack="true" PackagePath="\"/>
+  </ItemGroup>
   <PropertyGroup>
     <PackRelease>true</PackRelease>
   </PropertyGroup>
