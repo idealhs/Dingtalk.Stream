@@ -14,6 +14,10 @@ This SDK was develop under the guide of doc :
 
 [Guide Doc](https://open.dingtalk.com/document/direction/stream-mode-protocol-access-description)
 
+## Compatibility
+
+This package supports the .NET Standard 2.1.
+
 ## Usage
 
 ```c#
