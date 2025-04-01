@@ -4,11 +4,11 @@
     <TargetFrameworks>net5.0;net6.0;net7.0</TargetFrameworks>
     <RootNamespace>Dingtalk.Stream</RootNamespace>
     <ImplicitUsings>disable</ImplicitUsings>
-    <Nullable>disable</Nullable>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
   <PropertyGroup>
     <PackageId>Dingtalk.Stream</PackageId>
-    <PackageVersion>1.0.2</PackageVersion>
+    <PackageVersion>1.0.3</PackageVersion>
     <Authors>Sean Liu</Authors>
     <Owners>Sean Liu</Owners>
     <PackageIcon>dingtalk.png</PackageIcon>
@@ -19,11 +19,15 @@
       A unofficial .NET implementation of Dingtalk stream mode.
     </Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-</PropertyGroup>
+  </PropertyGroup>
   <ItemGroup>
-    <None Include="README.md" Pack="true" PackagePath="\"/>
-    <None Include="LICENSE.txt" Pack="true" PackagePath="\"/>
-    <None Include="dingtalk.png" Pack="true" PackagePath="\"/>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="LICENSE.txt" Pack="true" PackagePath="\" />
+    <None Include="dingtalk.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.3" />
   </ItemGroup>
   <PropertyGroup>
     <PackRelease>true</PackRelease>
