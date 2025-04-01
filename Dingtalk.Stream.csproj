@@ -33,6 +33,9 @@
   </ItemGroup>
   <PropertyGroup>
     <PackRelease>true</PackRelease>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
   </PropertyGroup>
-
+  <PropertyGroup>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+  </PropertyGroup>
 </Project>
